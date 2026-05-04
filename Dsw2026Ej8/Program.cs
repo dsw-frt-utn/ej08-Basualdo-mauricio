@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var helper = new ProductHelper();
+            var resultado = helper.ObtenerEtiquetaProducto(123, "Mouse", 1500);
+
+            Console.WriteLine(resultado);
         }
     }
 }
