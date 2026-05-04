@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Sale
+    public class Sale
     {
         public decimal Amount { get; set; }
 

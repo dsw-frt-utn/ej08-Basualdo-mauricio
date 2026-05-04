@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class WholesaleSale : Sale
+    public class WholesaleSale : Sale
     {
         public override decimal CalculateTotal()
         {
