@@ -4,9 +4,12 @@
     {
         static void Main(string[] args)
         {
-            var p2 = new Problema2();
+            var producto = new Product();
+            producto.SetDescription("Original");
 
-            var resultado = p2.CrearResumenVenta(1, "Teclado", 2, 1000);
+            var p3 = new Problema3();
+
+            var resultado = p3.CompararCopias(5, producto);
 
             Console.WriteLine(resultado);
             Console.WriteLine("Hello, World!");

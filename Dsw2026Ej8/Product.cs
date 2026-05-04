@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Dsw2026Ej8
+{
+    internal class Product
+    {
+            private string _description;
+
+            public void SetDescription(string description)
+            {
+                _description = description;
+            }
+
+            public string GetDescription()
+            {
+                return _description;
+            }
+        
+    }
+}
