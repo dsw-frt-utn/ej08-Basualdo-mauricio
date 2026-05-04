@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
-            var helper = new ProductHelper();
-            var resultado = helper.ObtenerEtiquetaProducto(123, "Mouse", 1500);
+            var p2 = new Problema2();
+
+            var resultado = p2.CrearResumenVenta(1, "Teclado", 2, 1000);
 
             Console.WriteLine(resultado);
+            Console.WriteLine("Hello, World!");
         }
     }
 }
